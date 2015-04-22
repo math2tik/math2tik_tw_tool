@@ -1,0 +1,37 @@
+simple twitter client
+シンプルなTwitterのクライアント
+
+for my study about python
+pythonの勉強用
+
+* set up steps
+* first, you register your own twitter aplication details https://apps.twitter.com/
+* second you get your keys
+** consumer_key
+** consumer_secret
+** access_token
+** access_token_secret
+* third, you create "twitter_config.ini" file and write like this
+[twitter_app_config]
+consumer_key=XXXXXXXXXXXXXXXXXXXXXXXXX
+consumer_secret=YYYYYYYYYYYYYYYYYYYYYYYYY
+access_token=ZZZZZZZZZZZZZZZZZZZZZZZZ
+access_token_secret=XYZXYZXYZXYZXYZXYZ
+
+usage
+sample is here
+import twitter_api
+obj =twitter_api.twitter_api()
+obj.post_tweet("hello! twitter world!!")
+
+LICENSE
+see LICENSE file
+
+
+Thanks
+I use great Rauth libray
+https://github.com/litl/rauth
+
+Contact
+twitter: @math2tik
+blog:    http://mathematik.hatenablog.com/
