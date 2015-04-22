@@ -12,11 +12,13 @@ pythonの勉強用
 ** access_token
 ** access_token_secret
 * third, you create "twitter_config.ini" file and write like this
+###################################################################### 
 [twitter_app_config]
 consumer_key=XXXXXXXXXXXXXXXXXXXXXXXXX
 consumer_secret=YYYYYYYYYYYYYYYYYYYYYYYYY
 access_token=ZZZZZZZZZZZZZZZZZZZZZZZZ
 access_token_secret=XYZXYZXYZXYZXYZXYZ
+######################################################################
 
 usage
 sample is here
